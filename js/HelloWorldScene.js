@@ -14,9 +14,9 @@ export default class HelloWorldScene extends Component {
 
   constructor() {
     super();
-
-    this.state = {} // Set initial state here
   }
+
+  state = {}
 
   render() {
     return (
@@ -38,5 +38,3 @@ var styles = StyleSheet.create({
     textAlign: 'center',  
   },
 });
-
-module.exports = HelloWorldScene;
